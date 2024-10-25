@@ -33,7 +33,7 @@ coverage/
 *.pid
 
 # Almacenamiento local
-archivos_subidos/
+# archivos_subidos/
 
 # Archivos de credenciales
 *.json
