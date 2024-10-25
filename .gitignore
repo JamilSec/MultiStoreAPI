@@ -1,0 +1,43 @@
+# Entornos de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.env
+
+# Entorno virtual
+.venv/
+env/
+venv/
+ENV/
+
+# Archivos de configuración locales
+*.env
+.env.*
+
+# Directorios de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Dependencias instaladas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Directorios de caché
+.cache/
+coverage/
+
+# Archivos creados por Uvicorn o FastAPI
+*.pid
+
+# Almacenamiento local
+archivos_subidos/
+
+# Archivos de credenciales
+*.json
+path_a_tu_archivo_credenciales.json  # Ruta al archivo de credenciales en caso de que lo tengas directamente en el proyecto
+
+# Configuración de AWS o Google si existiera algún otro archivo
+aws-config/
